@@ -1,0 +1,106 @@
+CSS Links found: ['/assets/index-CEh4RuDd.css']
+
+--- HEX COLORS ---
+#000
+#a56e1d
+#ccc
+#faf8f5
+#181e2b
+#dcdad5
+#e5e7eb
+#dc2626
+#e6cc99
+#111622
+#262e40
+#ece8df
+#9ca3af
+#0000
+#fff
+#1b1b1b
+#000c
+#d49a35
+#c5c1b9
+#575ecf
+
+--- FONTS ---
+ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace
+ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}.font-sans{font-family:"Source Sans 3",sans-serif}.font-serif{font-family:Playfair Display,serif}.text-2xl{font-size:1.5rem
+CameraPlainVariable, "CameraPlainVariable Fallback", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif
+inherit
+"Source Sans 3",sans-serif}h1,h2,h3,h4,h5,h6{font-family:Playfair Display,serif}.sr-only{position:absolute
+"Source Sans 3",sans-serif
+'CameraPlainVariable'
+
+--- TITLE ---
+ Tecer Educacional
+
+--- META DESC ---
+ Lovable Generated Project
+
+--- SOME TEXT CONTENT ---
+ Tecer Educacional @font-face { font-family: 'CameraPlainVariable'; src: url('https://cdn.gpteng.co/mcp-widgets/v1/fonts/CameraPlainVariable.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: swap; } #lovable-badge { --badge-bg: #1b1b1b; --badge-text: #c5c1b9; --badge-text-hover: #dcdad5; --badge-radius: 6px; --badge-padding: 8px; --badge-gap: 6px; --badge-shadow: 0 0 0 1px rgba(0, 0, 0, 0.88), 0 1px 0 0 rgba(0, 0, 0, 0.04), 0 2px 2px -1px rgba(0, 0, 0, 0.08), 0 4px 4px -2px rgba(0, 0, 0, 0.08), 0 8px 8px -4px rgba(0, 0, 0, 0.08), 0 16px 16px -8px rgba(0, 0, 0, 0.08); --badge-transition-duration: 0.2s; --badge-transition-easing: cubic-bezier(0.16, 1, 0.32, 1); --focus-color: #575ECF; --focus-offset: 2px; --focus-width: 2px; position: fixed; bottom: 12px; right: 12px; height: 24px; display: flex; align-items: center; z-index: 1000000; background-color: var(--badge-bg); color: var(--badge-text); border-radius: var(--badge-radius); box-shadow: var(--badge-sha
+
+--- CSS Variables ---
+--badge-bg: #1b1b1b;
+--badge-text: #c5c1b9;
+--badge-text-hover: #dcdad5;
+--badge-radius: 6px;
+--badge-padding: 8px;
+--badge-gap: 6px;
+--badge-shadow:
+			0 0 0 1px rgba(0, 0, 0, 0.88),
+			0 1px 0 0 rgba(0, 0, 0, 0.04),
+			0 2px 2px -1px rgba(0, 0, 0, 0.08),
+			0 4px 4px -2px rgba(0, 0, 0, 0.08),
+			0 8px 8px -4px rgba(0, 0, 0, 0.08),
+			0 16px 16px -8px rgba(0, 0, 0, 0.08);
+--badge-transition-duration: 0.2s;
+--badge-transition-easing: cubic-bezier(0.16, 1, 0.32, 1);
+--focus-color: #575ECF;
+--focus-offset: 2px;
+--focus-width: 2px;
+--badge-bg);
+		color: var(--badge-text);
+--badge-radius);
+		box-shadow: var(--badge-shadow);
+--badge-gap);
+		padding: 0 var(--badge-padding);
+--badge-radius) 0 0 var(--badge-radius);
+		transition:
+			background-color var(--badge-transition-duration) ease,
+			color var(--badge-transition-duration) ease,
+			transform 0.1s ease;
+--badge-text-hover);
+	}
+
+	#lovable-badge-cta:active {
+		transform: scale(0.98);
+--focus-width) solid var(--focus-color);
+		outline-offset: var(--focus-offset);
+--badge-radius) var(--badge-radius) 0;
+		flex-shrink: 0;
+--badge-transition-duration) ease,
+			transform 0.1s ease;
+	}
+
+	#lovable-badge-close:hover {
+		background: rgba(255, 255, 255, 0.04);
+--focus-width) solid var(--focus-color);
+		outline-offset: calc(var(--focus-offset) * -1);
+--badge-text);
+		transition: fill var(--badge-transition-duration) ease;
+--badge-text-hover);
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		#lovable-badge-cta,
+		#lovable-badge-close,
+		#lovable-badge-close svg path {
+			transition: none;
+--badge-bg: #000;
+--badge-text: #fff;
+--badge-text-hover: #fff;
+--tw-border-spacing-x: 0;
+--tw-border-spacing-y: 0;
+--tw-translate-x: 0;
+--tw-translate-y: 0;
