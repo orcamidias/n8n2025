@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Mapa Estratégico de Matrículas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            light: '#e0f2fe',
+                            DEFAULT: '#0284c7', // sky-600
+                            dark: '#0369a1', // sky-700
+                        },
+                        accent: {
+                            DEFAULT: '#f59e0b', // amber-500
+                            hover: '#d97706', // amber-600
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-brand-light selection:text-brand-dark">
+
+    <!-- 1. HERO / PRIMEIRA DOBRA -->
+    <header class="relative bg-white overflow-hidden border-b border-slate-200">
+        <div class="absolute inset-y-0 w-full h-full bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-brand-light/40 via-transparent to-transparent"></div>
+        <div class="max-w-5xl mx-auto px-6 pt-20 pb-24 relative z-10 text-center">
+            <h1 class="text-3xl md:text-5xl font-extrabold text-slate-900 leading-tight mb-6 tracking-tight">
+                A sua escola entrega um ensino de excelência. <span class="text-brand">Mas por que as matrículas não crescem</span> na mesma proporção do seu esforço?
+            </h1>
+            <p class="text-lg md:text-xl text-slate-600 mb-8 max-w-3xl mx-auto font-medium">
+                Descubra como sair do operacional diário e construir um crescimento sólido no <strong class="text-slate-900">Workshop Mapa Estratégico de Matrículas</strong>.
+            </p>
+
+            <div class="inline-flex flex-col sm:flex-row items-center justify-center gap-4 bg-slate-100/80 backdrop-blur-sm p-4 rounded-2xl border border-slate-200 mb-10 shadow-sm">
+                <span class="flex items-center text-slate-700 font-medium">
+                    <svg class="w-5 h-5 mr-2 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    São Paulo – Sede da ABF
+                </span>
+                <span class="hidden sm:block text-slate-300">|</span>
+                <span class="flex items-center text-slate-700 font-medium">
+                    <svg class="w-5 h-5 mr-2 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    27 de maio
+                </span>
+            </div>
+
+            <p class="text-sm font-semibold tracking-wider text-slate-500 uppercase mb-8">Um encontro presencial exclusivo para diretores e gestores educacionais.</p>
+
+            <a href="#inscricao" class="inline-block bg-accent hover:bg-accent-hover text-white font-bold py-4 px-8 rounded-xl shadow-lg shadow-accent/30 transition-all duration-300 transform hover:-translate-y-1 text-lg">
+                Quero estruturar o crescimento da minha escola
+            </a>
+        </div>
+    </header>
+
+    <!-- 2. CONTEXTO & A DOR -->
+    <section class="py-20 bg-slate-50">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-2xl md:text-3xl font-bold text-slate-900 mb-10 text-center leading-snug">
+                A verdade que a pedagogia não te ensinou: <br class="hidden md:block"/><span class="text-slate-500 font-normal text-xl md:text-2xl mt-2 block">a gestão de uma escola exige muito mais do que acompanhar alunos e famílias.</span>
+            </h2>
+
+            <div class="space-y-6 text-lg text-slate-700 leading-relaxed bg-white p-8 md:p-10 rounded-3xl shadow-sm border border-slate-100">
+                <p>Diretores e coordenadores costumam chegar à liderança por um motivo muito nobre: <strong>são educadores brilhantes</strong>. Você conhece profundamente o processo de aprendizagem e se dedica de corpo e alma ao cotidiano da escola.</p>
+
+                <p>Mas em algum momento, o limite de capacidade chega. E com ele, a frustração de perceber que:</p>
+
+                <ul class="pl-6 space-y-2 font-medium text-slate-800">
+                    <li class="flex items-start"><svg class="w-6 h-6 mr-2 text-brand shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> A qualidade pedagógica é alta.</li>
+                    <li class="flex items-start"><svg class="w-6 h-6 mr-2 text-brand shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> O reconhecimento das famílias existe.</li>
+                    <li class="flex items-start"><svg class="w-6 h-6 mr-2 text-brand shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> O time veste a camisa.</li>
+                </ul>
+
+                <div class="bg-red-50 text-red-900 p-5 rounded-xl border border-red-100 font-semibold my-8">
+                    E, ainda assim, a escola trava na hora de crescer.
+                </div>
+
+                <p>É quando surge a pergunta silenciosa que tira o sono de muitos gestores: <em class="text-slate-900 font-medium">como fazer a escola crescer de forma estruturada, sem que isso dependa exclusivamente da minha exaustão pessoal?</em></p>
+
+                <p class="text-xl font-bold text-brand-dark pt-4 border-t border-slate-100 mt-6">
+                    O gargalo da sua escola, hoje, muito provavelmente não é pedagógico. Ele está na estrutura de gestão.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. A SOLUÇÃO -->
+    <section class="py-24 bg-slate-900 text-white relative overflow-hidden">
+        <!-- Decorational elements -->
+        <div class="absolute top-0 right-0 -mt-20 -mr-20 w-80 h-80 bg-brand rounded-full blur-3xl opacity-20"></div>
+        <div class="absolute bottom-0 left-0 -mb-20 -ml-20 w-80 h-80 bg-accent rounded-full blur-3xl opacity-10"></div>
+
+        <div class="max-w-4xl mx-auto px-6 relative z-10">
+            <h2 class="text-3xl md:text-4xl font-bold mb-10 text-center leading-tight">
+                Chegou a hora de parar de apagar incêndios e <span class="text-accent">assumir a estratégia.</span>
+            </h2>
+
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+                <div class="space-y-6 text-slate-300 text-lg">
+                    <p>Ao longo de anos trabalhando lado a lado com instituições de ensino, percebi uma lacuna invisível que destrói o potencial de escolas incríveis: <strong class="text-white">a ausência de uma gestão estratégica voltada para a expansão.</strong></p>
+                    <p class="text-xl text-white font-medium border-l-4 border-accent pl-4 py-1">O olhar do diretor acaba refém da urgência.</p>
+                    <p>Foi para quebrar esse ciclo que criei o <strong>Mapa Estratégico de Matrículas</strong>.</p>
+                </div>
+                <div class="bg-slate-800/50 backdrop-blur border border-slate-700 p-8 rounded-3xl shadow-xl">
+                    <div class="mb-4 text-brand-light">
+                        <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"></path></svg>
+                    </div>
+                    <p class="text-lg leading-relaxed text-slate-200">
+                        Mais do que um encontro de conteúdo, <strong class="text-white">esta é uma pausa estratégica.</strong> Um ambiente pensado para diretores que precisam olhar para sua escola como um organismo vivo, que demanda processos claros, equipe com autonomia e visão de longo prazo.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. O QUE VOCÊ LEVA DESTE ENCONTRO -->
+    <section class="py-24 bg-white">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="text-center mb-16 max-w-3xl mx-auto">
+                <h2 class="text-3xl font-bold text-slate-900 mb-6">O que você leva deste encontro</h2>
+                <p class="text-lg text-slate-600">
+                    Durante o workshop, vamos deixar as teorias genéricas de lado e focar nos pilares reais que destravam o crescimento da sua instituição. <strong>Você sairá deste encontro sabendo exatamente:</strong>
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 mb-16">
+                <!-- Card 1 -->
+                <div class="bg-slate-50 p-8 rounded-3xl border border-slate-200 transition-all hover:shadow-md hover:border-brand/30">
+                    <div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center text-brand mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Os Freios Invisíveis</h3>
+                    <p class="text-slate-600">Quais são os erros de gestão que estão, neste exato momento, limitando as suas matrículas (e como neutralizá-los).</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-slate-50 p-8 rounded-3xl border border-slate-200 transition-all hover:shadow-md hover:border-brand/30">
+                    <div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center text-brand mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">O Mapa na Prática</h3>
+                    <p class="text-slate-600">Como desenhar um plano estratégico para captar e reter alunos sem perder a essência acolhedora da escola.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-slate-50 p-8 rounded-3xl border border-slate-200 transition-all hover:shadow-md hover:border-brand/30">
+                    <div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center text-brand mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Engajamento de Alto Nível</h3>
+                    <p class="text-slate-600">Como envolver a sua equipe para que atuem como aliados estratégicos no crescimento.</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="bg-slate-50 p-8 rounded-3xl border border-slate-200 transition-all hover:shadow-md hover:border-brand/30">
+                    <div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center text-brand mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Fábrica de Líderes</h3>
+                    <p class="text-slate-600">O caminho seguro para desenvolver novas lideranças internas, tornando a gestão menos dependente da sua presença diária.</p>
+                </div>
+            </div>
+
+            <div class="bg-brand-light/30 border border-brand/20 p-8 rounded-2xl text-center max-w-4xl mx-auto mb-10">
+                <p class="text-slate-800 text-lg">
+                    O objetivo não é te entregar fórmulas prontas, mas sim as <strong>ferramentas de reflexão e a estrutura prática</strong> para você construir o seu próprio caminho de expansão consciente.
+                </p>
+            </div>
+
+            <div class="text-center">
+                <a href="#inscricao" class="inline-block bg-brand hover:bg-brand-dark text-white font-bold py-4 px-8 rounded-xl shadow-lg shadow-brand/30 transition-all duration-300 transform hover:-translate-y-1 text-lg">
+                    Preciso dessa clareza para a minha gestão
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. PARA QUEM É ESTE WORKSHOP -->
+    <section class="py-20 bg-slate-100 border-y border-slate-200">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Para quem é este workshop</h2>
+                <p class="text-lg text-slate-600 max-w-2xl mx-auto">Uma sala com profissionais que vivem exatamente os mesmos desafios que você. Este encontro foi formatado especificamente para:</p>
+            </div>
+
+            <div class="space-y-4">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex items-start">
+                    <div class="bg-brand-light text-brand p-3 rounded-full mr-4 shrink-0 mt-1">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-1">Diretores e Mantenedores</h3>
+                        <p class="text-slate-600">que buscam previsibilidade, organização e crescimento institucional.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex items-start">
+                    <div class="bg-brand-light text-brand p-3 rounded-full mr-4 shrink-0 mt-1">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-1">Coordenadores Pedagógicos</h3>
+                        <p class="text-slate-600">interessados em alinhar a qualidade do ensino à estratégia da escola.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex items-start">
+                    <div class="bg-brand-light text-brand p-3 rounded-full mr-4 shrink-0 mt-1">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-1">Educadores em Cargos de Gestão</h3>
+                        <p class="text-slate-600">que precisam fortalecer suas bases de processos e liderança.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. SOBRE A MENTORA -->
+    <section class="py-24 bg-white">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row gap-12 items-center">
+                <div class="w-full md:w-1/3 flex justify-center">
+                    <div class="relative w-64 h-64 md:w-full md:h-auto md:aspect-square rounded-3xl overflow-hidden bg-slate-200 border-4 border-white shadow-xl">
+                        <!-- Placeholder if no image is provided, ideally replaced with actual photo -->
+                        <div class="w-full h-full bg-slate-300 flex items-center justify-center text-slate-400">
+                            <svg class="w-24 h-24" fill="currentColor" viewBox="0 0 24 24"><path d="M24 20.993V24H0v-2.996A14.977 14.977 0 0112.004 15c4.904 0 9.26 2.354 11.996 5.993zM16.002 8.999a4 4 0 11-8 0 4 4 0 018 0z" /></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-2/3 space-y-6">
+                    <div>
+                        <span class="text-brand font-bold tracking-wider uppercase text-sm mb-2 block">Sobre a Mentora</span>
+                        <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Fernanda Tellian</h2>
+                    </div>
+
+                    <p class="text-lg text-slate-700 leading-relaxed">
+                        <strong>Educadora por vocação e especialista em gestão por vivência.</strong> Fernanda é fundadora do Tecer Educacional, uma iniciativa dedicada exclusivamente ao desenvolvimento de gestores e instituições de ensino.
+                    </p>
+
+                    <p class="text-lg text-slate-700 leading-relaxed">
+                        Seu trabalho é a ponte entre a sala de aula e os resultados da escola: apoia instituições na construção de estruturas sólidas de gestão, integrando desenvolvimento de liderança, organização e visão estratégica sustentável.
+                    </p>
+
+                    <div class="pt-4">
+                        <a href="https://tecereducacional.com.br" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-brand font-semibold hover:text-brand-dark transition-colors">
+                            Conheça mais: tecereducacional.com.br
+                            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. INFORMAÇÕES E URGÊNCIA REAL & 8. CTA FINAL -->
+    <section id="inscricao" class="py-24 bg-slate-900 text-white relative">
+        <div class="max-w-4xl mx-auto px-6 relative z-10">
+
+            <div class="bg-red-500/10 border border-red-500/30 p-6 rounded-2xl mb-12 flex items-start">
+                <svg class="w-8 h-8 text-red-400 mr-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                <div>
+                    <h3 class="font-bold text-lg text-red-200 mb-1">Atenção: Vagas Estritamente Limitadas</h3>
+                    <p class="text-slate-300">A configuração deste encontro exige um número rigorosamente limitado de participantes para garantir a qualidade da experiência.</p>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6 mb-12">
+                <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700 text-center">
+                    <svg class="w-8 h-8 mx-auto mb-3 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    <h4 class="text-slate-400 text-sm font-bold uppercase tracking-wider mb-1">Data</h4>
+                    <p class="text-xl font-medium">27 de maio</p>
+                </div>
+                <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700 text-center">
+                    <svg class="w-8 h-8 mx-auto mb-3 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    <h4 class="text-slate-400 text-sm font-bold uppercase tracking-wider mb-1">Local</h4>
+                    <p class="text-xl font-medium">Sede da ABF<br/><span class="text-sm text-slate-400">São Paulo</span></p>
+                </div>
+                <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700 text-center">
+                    <svg class="w-8 h-8 mx-auto mb-3 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"></path></svg>
+                    <h4 class="text-slate-400 text-sm font-bold uppercase tracking-wider mb-1">Formato</h4>
+                    <p class="text-xl font-medium">Workshop presencial imersivo</p>
+                </div>
+            </div>
+
+            <div class="space-y-6 text-slate-300 text-lg text-center max-w-3xl mx-auto mb-16">
+                <p>O <em>Mapa Estratégico de Matrículas</em> foi desenhado como um espaço de trabalho intenso e troca de experiências reais. Para que todos tenham voz, consigam analisar seus cenários individuais e fazer networking de alto nível, <strong>a capacidade da sala foi reduzida propositalmente.</strong></p>
+
+                <p class="text-white font-medium">Assim que as cadeiras forem preenchidas, as inscrições serão encerradas imediatamente e não será possível abrir novos lugares nesta edição.</p>
+
+                <p>Se estruturar os próximos passos da sua escola é uma prioridade agora, antecipe-se.</p>
+
+                <div class="my-10 h-px w-24 bg-slate-700 mx-auto"></div>
+
+                <p class="text-xl text-white font-medium">Se você decidiu que este é o momento de repensar a sua gestão e construir um caminho sólido e previsível de crescimento, será uma honra guiar você e a sua escola neste processo.</p>
+            </div>
+
+            <div class="text-center">
+                <a href="#" class="inline-block w-full sm:w-auto bg-accent hover:bg-accent-hover text-white font-bold py-5 px-10 rounded-xl shadow-[0_0_30px_rgba(245,158,11,0.3)] transition-all duration-300 transform hover:-translate-y-1 text-xl">
+                    Garantir minha vaga no workshop agora
+                </a>
+                <p class="mt-4 text-slate-400 text-sm font-medium">Participação presencial | Vagas estritamente limitadas</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-950 text-slate-500 py-8 text-center border-t border-slate-800">
+        <div class="max-w-4xl mx-auto px-6">
+            <p>&copy; 2024 Tecer Educacional. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
