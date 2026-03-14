@@ -1,0 +1,569 @@
+{
+  "buttons": [
+    {
+      "text": "Início",
+      "classes": "font-sans text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200 tracking-wide",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "color": "rgba(250, 248, 245, 0.8)",
+      "borderRadius": "0px",
+      "padding": "0px",
+      "fontSize": "14px",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "fontWeight": "400"
+    },
+    {
+      "text": "Desafios",
+      "classes": "font-sans text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200 tracking-wide",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "color": "rgba(250, 248, 245, 0.8)",
+      "borderRadius": "0px",
+      "padding": "0px",
+      "fontSize": "14px",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "fontWeight": "400"
+    },
+    {
+      "text": "Pilares",
+      "classes": "font-sans text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200 tracking-wide",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "color": "rgba(250, 248, 245, 0.8)",
+      "borderRadius": "0px",
+      "padding": "0px",
+      "fontSize": "14px",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "fontWeight": "400"
+    },
+    {
+      "text": "Transformação",
+      "classes": "font-sans text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200 tracking-wide",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "color": "rgba(250, 248, 245, 0.8)",
+      "borderRadius": "0px",
+      "padding": "0px",
+      "fontSize": "14px",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "fontWeight": "400"
+    },
+    {
+      "text": "Resultados",
+      "classes": "font-sans text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200 tracking-wide",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "color": "rgba(250, 248, 245, 0.8)",
+      "borderRadius": "0px",
+      "padding": "0px",
+      "fontSize": "14px",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "fontWeight": "400"
+    },
+    {
+      "text": "Quem Sou Eu",
+      "classes": "font-sans text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200 tracking-wide",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "color": "rgba(250, 248, 245, 0.8)",
+      "borderRadius": "0px",
+      "padding": "0px",
+      "fontSize": "14px",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "fontWeight": "400"
+    },
+    {
+      "text": "Dúvidas",
+      "classes": "font-sans text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200 tracking-wide",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "color": "rgba(250, 248, 245, 0.8)",
+      "borderRadius": "0px",
+      "padding": "0px",
+      "fontSize": "14px",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "fontWeight": "400"
+    },
+    {
+      "text": "Diagnóstico",
+      "classes": "font-sans text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200 tracking-wide",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "color": "rgba(250, 248, 245, 0.8)",
+      "borderRadius": "0px",
+      "padding": "0px",
+      "fontSize": "14px",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "fontWeight": "400"
+    },
+    {
+      "text": "Solicitar Diagnóstico Gratuito",
+      "classes": "bg-gradient-gold text-primary-foreground font-sans font-semibold px-10 py-4 rounded-lg text-lg shadow-gold hover:opacity-90 transition-all duration-300 hover:scale-105",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(250, 248, 245)",
+      "borderRadius": "8px",
+      "padding": "16px 40px",
+      "fontSize": "18px",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "fontWeight": "600"
+    },
+    {
+      "text": "Conhecer o Método",
+      "classes": "border border-gold-light/30 text-primary-foreground/90 font-sans px-10 py-4 rounded-lg text-lg hover:bg-primary-foreground/5 transition-all duration-300",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "color": "rgba(250, 248, 245, 0.9)",
+      "borderRadius": "8px",
+      "padding": "16px 40px",
+      "fontSize": "18px",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "fontWeight": "400"
+    },
+    {
+      "text": "Quero iniciar minha transformação",
+      "classes": "inline-flex items-center gap-2 bg-gradient-gold text-primary-foreground font-sans font-semibold px-10 py-4 rounded-lg text-lg shadow-gold hover:opacity-90 transition-all duration-300 hover:scale-105",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(250, 248, 245)",
+      "borderRadius": "8px",
+      "padding": "16px 40px",
+      "fontSize": "18px",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "fontWeight": "600"
+    },
+    {
+      "text": "\"Minha escola é pequena, isso funciona para mim?\"",
+      "classes": "w-full flex items-center justify-between p-6 text-left",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 46)",
+      "borderRadius": "0px",
+      "padding": "24px",
+      "fontSize": "16px",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "fontWeight": "400"
+    },
+    {
+      "text": "\"Já tentei consultorias antes e não funcionou.\"",
+      "classes": "w-full flex items-center justify-between p-6 text-left",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 46)",
+      "borderRadius": "0px",
+      "padding": "24px",
+      "fontSize": "16px",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "fontWeight": "400"
+    },
+    {
+      "text": "\"Não tenho tempo para mais um projeto.\"",
+      "classes": "w-full flex items-center justify-between p-6 text-left",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 46)",
+      "borderRadius": "0px",
+      "padding": "24px",
+      "fontSize": "16px",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "fontWeight": "400"
+    },
+    {
+      "text": "\"O investimento cabe no meu orçamento?\"",
+      "classes": "w-full flex items-center justify-between p-6 text-left",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 46)",
+      "borderRadius": "0px",
+      "padding": "24px",
+      "fontSize": "16px",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "fontWeight": "400"
+    },
+    {
+      "text": "\"Como sei que vai funcionar na minha escola?\"",
+      "classes": "w-full flex items-center justify-between p-6 text-left",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(31, 35, 46)",
+      "borderRadius": "0px",
+      "padding": "24px",
+      "fontSize": "16px",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "fontWeight": "400"
+    },
+    {
+      "text": "Solicitar Diagnóstico Gratuito",
+      "classes": "inline-flex items-center gap-3 bg-gradient-gold text-primary-foreground font-sans font-bold px-12 py-5 rounded-xl text-xl shadow-gold hover:opacity-90 transition-all duration-300 hover:scale-105",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(250, 248, 245)",
+      "borderRadius": "12px",
+      "padding": "20px 48px",
+      "fontSize": "20px",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "fontWeight": "700"
+    },
+    {
+      "text": "Edit with",
+      "classes": "",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(197, 193, 185)",
+      "borderRadius": "6px 0px 0px 6px",
+      "padding": "0px 8px",
+      "fontSize": "12px",
+      "fontFamily": "CameraPlainVariable, \"CameraPlainVariable Fallback\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+      "fontWeight": "400"
+    }
+  ],
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Sua escola merece uma gestão tão extraordinária quanto a educação que oferece.",
+      "fontSize": "72px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(250, 248, 245)",
+      "lineHeight": "72px"
+    },
+    {
+      "tag": "H2",
+      "text": "Os desafios que ninguém vê,\nmas que você sente todos os dias.",
+      "fontSize": "48px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(31, 35, 46)",
+      "lineHeight": "48px"
+    },
+    {
+      "tag": "H3",
+      "text": "Solidão na liderança",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(31, 35, 46)",
+      "lineHeight": "28px"
+    },
+    {
+      "tag": "H3",
+      "text": "Matrículas em queda",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(31, 35, 46)",
+      "lineHeight": "28px"
+    },
+    {
+      "tag": "H3",
+      "text": "Equipe desalinhada",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(31, 35, 46)",
+      "lineHeight": "28px"
+    },
+    {
+      "tag": "H3",
+      "text": "Medo da desorganização",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(31, 35, 46)",
+      "lineHeight": "28px"
+    },
+    {
+      "tag": "H3",
+      "text": "Falta de tempo estratégico",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(31, 35, 46)",
+      "lineHeight": "28px"
+    },
+    {
+      "tag": "H3",
+      "text": "Resultado financeiro instável",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(31, 35, 46)",
+      "lineHeight": "28px"
+    },
+    {
+      "tag": "H2",
+      "text": "Quatro pilares para transformar\na gestão da sua escola.",
+      "fontSize": "48px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(31, 35, 46)",
+      "lineHeight": "48px"
+    },
+    {
+      "tag": "H3",
+      "text": "Diagnóstico Estratégico",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(31, 35, 46)",
+      "lineHeight": "32px"
+    },
+    {
+      "tag": "H3",
+      "text": "Planejamento Sob Medida",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(31, 35, 46)",
+      "lineHeight": "32px"
+    },
+    {
+      "tag": "H3",
+      "text": "Implementação Acompanhada",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(31, 35, 46)",
+      "lineHeight": "32px"
+    },
+    {
+      "tag": "H3",
+      "text": "Sustentabilidade e Crescimento",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(31, 35, 46)",
+      "lineHeight": "32px"
+    },
+    {
+      "tag": "H2",
+      "text": "De onde você está para onde merece chegar.",
+      "fontSize": "48px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(31, 35, 46)",
+      "lineHeight": "48px"
+    },
+    {
+      "tag": "H3",
+      "text": "Antes da Tecer",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(103, 111, 126)",
+      "lineHeight": "32px"
+    },
+    {
+      "tag": "H3",
+      "text": "Depois da Tecer",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(250, 248, 245)",
+      "lineHeight": "32px"
+    },
+    {
+      "tag": "H2",
+      "text": "Resultados que você sente\ne que sua escola demonstra.",
+      "fontSize": "48px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(31, 35, 46)",
+      "lineHeight": "48px"
+    },
+    {
+      "tag": "H3",
+      "text": "Clareza nas decisões",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(31, 35, 46)",
+      "lineHeight": "28px"
+    },
+    {
+      "tag": "H3",
+      "text": "Liderança reconhecida",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(31, 35, 46)",
+      "lineHeight": "28px"
+    },
+    {
+      "tag": "H3",
+      "text": "Saúde financeira",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(31, 35, 46)",
+      "lineHeight": "28px"
+    },
+    {
+      "tag": "H3",
+      "text": "Posicionamento forte",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(31, 35, 46)",
+      "lineHeight": "28px"
+    },
+    {
+      "tag": "H3",
+      "text": "Processos que funcionam",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(31, 35, 46)",
+      "lineHeight": "28px"
+    },
+    {
+      "tag": "H3",
+      "text": "Paz para liderar",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(31, 35, 46)",
+      "lineHeight": "28px"
+    },
+    {
+      "tag": "H2",
+      "text": "Fernanda Tellian",
+      "fontSize": "36px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(31, 35, 46)",
+      "lineHeight": "40px"
+    },
+    {
+      "tag": "H2",
+      "text": "Talvez você esteja pensando...",
+      "fontSize": "48px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(31, 35, 46)",
+      "lineHeight": "48px"
+    },
+    {
+      "tag": "H2",
+      "text": "Sua escola pode mais.\nVamos descobrir juntas como.",
+      "fontSize": "48px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(250, 248, 245)",
+      "lineHeight": "48px"
+    },
+    {
+      "tag": "H3",
+      "text": "\"Tecer é transformar fios soltos em algo que faz sentido.\nÉ isso que fazemos com a gestão da sua escola.\"",
+      "fontSize": "30px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgba(250, 248, 245, 0.9)",
+      "lineHeight": "36px"
+    }
+  ],
+  "bodyText": [
+    {
+      "text": "CONSULTORIA ESTRATÉGICA PARA ESCOLAS PARTICULARES",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "color": "rgb(230, 204, 153)",
+      "lineHeight": "24px"
+    },
+    {
+      "text": "tão extraordinária",
+      "fontSize": "72px",
+      "fontWeight": "400",
+      "fontFamily": "\"Playfair Display\", serif",
+      "color": "rgb(250, 248, 245)",
+      "lineHeight": "72px"
+    },
+    {
+      "text": "A Tecer Educacional ajuda diretoras de escolas particulares a transformar desafios em estratégias claras — para liderar com segurança, crescer com propósito e construir escolas admiradas.",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "color": "rgba(250, 248, 245, 0.8)",
+      "lineHeight": "28px"
+    },
+    {
+      "text": "ESCOLAS QUE JÁ PASSARAM PELO MÉTODO TECER",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "color": "rgba(230, 204, 153, 0.6)",
+      "lineHeight": "16px"
+    },
+    {
+      "text": "Colégio Aurora",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "color": "rgba(250, 248, 245, 0.5)",
+      "lineHeight": "20px"
+    },
+    {
+      "text": "Instituto Lumière",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "color": "rgba(250, 248, 245, 0.5)",
+      "lineHeight": "20px"
+    },
+    {
+      "text": "Escola Vivência",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "color": "rgba(250, 248, 245, 0.5)",
+      "lineHeight": "20px"
+    },
+    {
+      "text": "Colégio Monteiro",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "color": "rgba(250, 248, 245, 0.5)",
+      "lineHeight": "20px"
+    },
+    {
+      "text": "Escola Criar",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "color": "rgba(250, 248, 245, 0.5)",
+      "lineHeight": "20px"
+    },
+    {
+      "text": "Instituto Saber",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "color": "rgba(250, 248, 245, 0.5)",
+      "lineHeight": "20px"
+    },
+    {
+      "text": "Colégio Aurora",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "color": "rgba(250, 248, 245, 0.5)",
+      "lineHeight": "20px"
+    },
+    {
+      "text": "Instituto Lumière",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "color": "rgba(250, 248, 245, 0.5)",
+      "lineHeight": "20px"
+    },
+    {
+      "text": "Escola Vivência",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "color": "rgba(250, 248, 245, 0.5)",
+      "lineHeight": "20px"
+    },
+    {
+      "text": "Colégio Monteiro",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "color": "rgba(250, 248, 245, 0.5)",
+      "lineHeight": "20px"
+    },
+    {
+      "text": "Escola Criar",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "fontFamily": "\"Source Sans 3\", sans-serif",
+      "color": "rgba(250, 248, 245, 0.5)",
+      "lineHeight": "20px"
+    }
+  ]
+}
